@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-5">
     <p class="heading text-capitalize">Time to your Birthday 🎉</p>
     <v-layout>
       <v-flex>

@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  publicPath: '/',
   lintOnSave: 'error',
   chainWebpack: (config) => {
     config.resolve.alias
