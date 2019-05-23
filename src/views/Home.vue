@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <hello-world msg="Welcome to Your Vue.js App" />
+    <days-left />
+    <rules />
+    <stay-connected />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import DaysLeft from '../components/DaysLeft';
+import Rules from '../components/Rules';
+import StayConnected from '../components/StayConnected';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    DaysLeft,
+    Rules,
+    StayConnected
   }
 };
 </script>
