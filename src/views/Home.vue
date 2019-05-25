@@ -3,6 +3,7 @@
     <days-left />
     <rules />
     <blog />
+    <domain />
     <stay-connected />
   </div>
 </template>
@@ -12,6 +13,7 @@ import DaysLeft from '../components/DaysLeft';
 import Rules from '../components/Rules';
 import StayConnected from '../components/StayConnected';
 import Blog from '../components/Blog';
+import Domain from '../components/Domain';
 
 export default {
   name: 'home',
@@ -19,7 +21,8 @@ export default {
     DaysLeft,
     Rules,
     StayConnected,
-    Blog
+    Blog,
+    Domain
   }
 };
 </script>
