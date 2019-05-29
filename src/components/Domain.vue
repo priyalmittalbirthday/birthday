@@ -1,13 +1,10 @@
 <template>
   <div id="example-2" class="text-xs-center my-5">
-    <v-btn large outline color="indigo" class="text-capitalize my-5" @click="show = !show">
-      Un Wrap My gift for today
-    </v-btn>
     <transition name="bounce">
-      <div v-if="show">
+      <div>
         <v-card
           class="mx-auto"
-          color="#26c6da"
+          color="#FFEB35"
           dark
           max-width="600"
         >
