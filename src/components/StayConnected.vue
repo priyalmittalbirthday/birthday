@@ -2,7 +2,6 @@
   <div class="my-5">
     <p class="text-sm-center connected">Stay Connected.</p>
     <p class="text-sm-center connected"> Hope you like it!! 😇</p>
-    <p class="text-sm-center">and let me know if the colors are not good....</p>
   </div>
 </template>
 
